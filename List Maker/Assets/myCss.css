@@ -37,3 +37,11 @@ h2 {
 .table{
     text-align: center;
 }
+
+.todo{
+    text-align: center;
+    border-style: solid;
+    border-width: 1px;
+    border-color: blue;
+    color: blue;
+}
