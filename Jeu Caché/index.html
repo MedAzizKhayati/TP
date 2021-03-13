@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/bootstrap.css" />
+    <link rel="stylesheet" href="Assets/myCss.css">
+    <title>Hidden Number Game</title>
+</head>
+
+<body>
+    <div class="container">
+        <h1>
+            Hidden numbers
+        </h1>
+        <h2>
+            Choose the level of difficulty:
+        </h2>
+        <div class="wrapper">
+            <div class="box1">
+                <h1><button type="button" class="btn btn-dark" onclick="button1();">Easy</button></h1>
+            </div>
+            <div class="box2">
+                <h1><button type="button" class="btn btn-dark" onclick="button2();">Medium</button></h1>
+            </div>
+            <div class="box3">
+                <h1><button type="button" class="btn btn-dark" onclick="button3();">Difficult</button></h1>
+            </div>
+            
+        </div>
+        <button id="myButton" type="button" class="btn btn-dark btn-lg btn-block" onclick="isClicked()">
+            Guess The Number!
+        </button>
+
+    </div>
+    <script src="Scripts/main.js"></script>
+</body>
+
+</html>
